@@ -35,6 +35,9 @@ Installing
 
 VIDEO DEMO
 
+<br>
+<img width="1365" height="734" alt="Screenshot 2025-09-18 103407" src="https://github.com/user-attachments/assets/809c65f8-a6bf-45ec-91c7-5c121615dc30" />
+<br>
 
 FEATURES
 
