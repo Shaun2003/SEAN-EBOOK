@@ -1,76 +1,89 @@
-# SEAN-EBOOK
+# SEAN-EBOOK 🖥️  
 
-SEAN-EBOOK 🖥️
-SEAN-EBOOK is a learning Website where students and tutors can enroll to the Website, and both students and learners have different Dashboards.
+SEAN-EBOOK is a **learning website** where students and tutors can enroll. Both students (learners) and tutors have their own dedicated dashboards, offering role-specific features to enhance the e-learning experience.  
 
-Learner Dashboard has various features:
+---
 
+## 📚 Dashboards  
 
-Choosing Courses of their choice.
+### 🎓 Learner Dashboard
+- Choose courses of your choice.  
+- Comment and review courses.  
+- Option to register as a tutor.  
 
-Commenting in Courses you reviewed.
+### 👨‍🏫 Tutor (Admin) Dashboard
+- Upload new courses.  
+- Upload course materials (including videos).  
+- Reply to student comments.  
 
-Also registering to become a tutor too.
+---
 
+## 📑 Table of Contents  
+- [Video Demo](#video-demo)  
+- [Features](#features)  
+- [Installing](#installing)  
 
-Admin Dashboards is for Tutors which also has various features:
+---
 
+## 🎥 Video Demo  
 
-Uploading courses.
+📸 *Screenshot:*  
+![Video Demo Screenshot](Screenshot%202025-09-18%20103407.png)  
 
-Uploading Course Materials like Videos which are useful to learning.
+---
 
-Replying Comments which where made by students.
+## 🚀 Features  
 
+### 👥 For Users  
+- Register and Login  
+- User Suggestions  
+- Ratings & Reviews  
+- Choose Courses  
+- Chat with Admin  
 
-Table of Contents
+### 🛠️ For Admin  
+- Dedicated Admin Panel  
+- View User Reviews, Ratings, and Suggestions  
+- Track Courses Bought, User Count, and Page Visits  
+- AJAX-powered PHP Chat  
 
+---
 
-Video Demo
+## ⚙️ Installing  
 
-Features
+1. Extract the project into:  
 
-Installing
+   ```bash
+   ..\xampp\htdocs\
+````
 
+2. Run on **localhost** via XAMPP.
 
-VIDEO DEMO
+3. Import the database:
 
-<br>
-<img width="1365" height="734" alt="Screenshot 2025-09-18 103407" src="https://github.com/user-attachments/assets/809c65f8-a6bf-45ec-91c7-5c121615dc30" />
-<br>
+   * Open **phpMyAdmin**.
+   * Upload the file:
 
-FEATURES
+     ```bash
+     course.sql
+     ```
 
+4. Project is now ready to run locally 🚀
 
-For USERS
+---
 
- Register
- 
- Login
- 
- User Suggestions
- 
- User Ratings and Reviews/Suggestions
- 
- Choosing Courses
- 
- Chat with Admin
+## 🏷️ Badge
 
-For ADMIN
+![PHP](https://img.shields.io/badge/Backend-PHP-blue)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+![AJAX](https://img.shields.io/badge/Tech-AJAX-yellow)
+![XAMPP](https://img.shields.io/badge/Localhost-XAMPP-lightgrey)
 
+---
 
- Dedicated Admin Panel
- 
- User reviews , ratings and suggestions display
- 
- Count of Courses bought, number of users on the site and number of visits on various pages of website
- 
- Ajax supported PHP chat
+👨‍💻 Developed by **Sean**
 
+```
 
-Installing
-
-extract in ..xampp/htdocs and run on localhost
-
-upload course.sql file in phpmyadmin
-Badge
+Would you like me to also add a **"Folder Structure" section** so contributors can quickly understand the layout (e.g., `index.php`, `admin/`, `includes/`, `assets/`, `course.sql`)?
+```
